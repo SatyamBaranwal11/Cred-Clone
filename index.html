@@ -15,11 +15,16 @@
     <section class="section-1">
         <div class="section-1-header">
             <div class="section-1-header-logo">
-                <img src="https://web-images.credcdn.in/_next/assets/images/home-page/cred-logo.png" alt="76">
+                <img src="https://web-images.credcdn.in/_next/assets/images/home-page/cred-logo.png" alt="cred logo">
             </div>
             <div class="section-1-header-options">
                 <div><a href="#">credit score check</a></div>
                 <div><a href="#">CRED pay</a></div>
+            </div>
+            <div class="mobile-menu-btn">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
             </div>
         </div>
         <div class="section-1-main">
@@ -39,13 +44,11 @@
     <!-- SECTION-2 -->
     <section class="section-2">
         <div class="section-2-container">
-            <div class="section-2-container">
-                <img src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/neopop-left-2.png" style="transform: translate(-110%, 20%); z-index: 98;" alt="">
-                <img src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/neopop-left-1.png" style="transform: translate(-55%, 10%); z-index: 99;" alt="">
-                <img src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/neopop-center.png" style="z-index: 100;" alt="">
-                <img src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/neopop-right-1.png" style="transform: translate(55%, 10%); z-index: 99;" alt="">
-                <img src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/neopop-right-2.png" style="transform: translate(110%, 20%); z-index: 98;" alt="">
-            </div>
+            <img src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/neopop-left-2.png" class="phone-img left-2" alt="">
+            <img src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/neopop-left-1.png" class="phone-img left-1" alt="">
+            <img src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/neopop-center.png" class="phone-img center" alt="">
+            <img src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/neopop-right-1.png" class="phone-img right-1" alt="">
+            <img src="https://web-images.credcdn.in/_next/assets/images/home-page/phone/neopop-right-2.png" class="phone-img right-2" alt="">
         </div>
     </section>
     <!-- SECTION-3 -->
@@ -73,7 +76,14 @@
     <!-- SECTION-3.1 -->
     <section class="brand">
         <p>rewards from brands you love</p>
-        <img src="https://web-images.credcdn.in/_next/assets/images/home-page/brands-desktop.png" alt="34">
+        <img src="https://web-images.credcdn.in/_next/assets/images/home-page/brands-desktop.png" 
+             srcset="https://web-images.credcdn.in/_next/assets/images/home-page/brands-mobile.png 320w,
+                     https://web-images.credcdn.in/_next/assets/images/home-page/brands-tablet.png 768w,
+                     https://web-images.credcdn.in/_next/assets/images/home-page/brands-desktop.png 1024w"
+             sizes="(max-width: 480px) 320px,
+                    (max-width: 768px) 768px,
+                    1024px"
+             alt="brands">
     </section>
     <!-- SECTION 3.2 -->
     <section class="section-3B">
@@ -83,7 +93,7 @@
                 matters seriously.
             </div>
             <div class="section-3B-header-2">
-                so that you don’t have to.
+                so that you don't have to.
             </div>
         </div>
         <div class="section-3B-main">
@@ -142,27 +152,32 @@
             </div>
         </div>
     </section>
-    <div class="footer">
-        <div class="left-footer">
-            <p class="r1"> <b>4.8</b></p>
-            <p class="r2"> <b>app <br> store</b></p>
-            <img src="https://web-images.credcdn.in/_next/assets/images/home-page/rating-ios.png" alt="red" class="star">
-        
-       <div class="down">
-        <img src="https://web-images.credcdn.in/_next/assets/images/home-page/apple-store-logo.png" alt="">
-        <p class="big"><b> Download the app</b></p>
-    </div>
-       </div>
-    </div>
-    <div class="right-footer">
-        <p class="r3"><b>4.7</b></p>
-        <p class="r4"> <b>play<br>store</b> </p>
-        <img src="https://web-images.credcdn.in/_next/assets/images/home-page/rating-ios.png" alt="red" class="star">
-        <div class="down-1">
-            <img src="https://web-images.credcdn.in/_next/assets/images/home-page/play-store-logo.png" alt="something">
-            <p class="big"><b> Download the app</b></p>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="left-footer">
+                <div class="rating">
+                    <p class="r1"> <b>4.8</b></p>
+                    <p class="r2"> <b>app <br> store</b></p>
+                    <img src="https://web-images.credcdn.in/_next/assets/images/home-page/rating-ios.png" alt="rating" class="star">
+                </div>
+                <div class="download">
+                    <img src="https://web-images.credcdn.in/_next/assets/images/home-page/apple-store-logo.png" alt="app store">
+                    <p class="big"><b> Download the app</b></p>
+                </div>
+            </div>
+            <div class="right-footer">
+                <div class="rating">
+                    <p class="r3"><b>4.7</b></p>
+                    <p class="r4"> <b>play<br>store</b> </p>
+                    <img src="https://web-images.credcdn.in/_next/assets/images/home-page/rating-ios.png" alt="rating" class="star">
+                </div>
+                <div class="download">
+                    <img src="https://web-images.credcdn.in/_next/assets/images/home-page/play-store-logo.png" alt="play store">
+                    <p class="big"><b> Download the app</b></p>
+                </div>
+            </div>
         </div>
-    </div>
+    </footer>
     <script src="./script.js"></script>
 </body>
 
